@@ -1,0 +1,969 @@
+{
+  "version": "2026-09-30-gears-expression-simple-pair-baseline-v1",
+  "source": "C:\\reproducibility\\Transcriptomic-Diffusion-ZeroShot\\gears_data\\norman\\perturb_processed.h5ad",
+  "split_report": "C:\\reproducibility\\Transcriptomic-Diffusion-ZeroShot\\gears_pair_splits_go\\coverage_report.json",
+  "n_test_pairs": 101,
+  "n_genes": 5045,
+  "measured_target_genes": 65,
+  "frozen_method": "nearest, k=10, strength=1, SVD=16",
+  "metrics": {
+    "no_change_mse": 0.007286200162005804,
+    "additive_mse": 0.00166687842432515,
+    "mean_residual_mse": 0.0015961240784481928,
+    "nearest_mse": 0.0012728283401811286,
+    "nearest_mse_excluding_target_genes": 0.0012683381388767186
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "n_train_pairs": 72,
+      "n_validation_pairs": 8,
+      "n_test_pairs": 21,
+      "additive_mse": 0.0014848456485248645,
+      "nearest_mse": 0.0014889734335955934
+    },
+    {
+      "fold": 2,
+      "n_train_pairs": 73,
+      "n_validation_pairs": 8,
+      "n_test_pairs": 20,
+      "additive_mse": 0.0016917315419583614,
+      "nearest_mse": 0.001317490134277622
+    },
+    {
+      "fold": 3,
+      "n_train_pairs": 73,
+      "n_validation_pairs": 8,
+      "n_test_pairs": 20,
+      "additive_mse": 0.0016262003598971127,
+      "nearest_mse": 0.0012059557985826714
+    },
+    {
+      "fold": 4,
+      "n_train_pairs": 73,
+      "n_validation_pairs": 8,
+      "n_test_pairs": 20,
+      "additive_mse": 0.0016309764202562332,
+      "nearest_mse": 0.001084779716924405
+    },
+    {
+      "fold": 5,
+      "n_train_pairs": 73,
+      "n_validation_pairs": 8,
+      "n_test_pairs": 20,
+      "additive_mse": 0.00190973978977919,
+      "nearest_mse": 0.0012561353628546279
+    }
+  ],
+  "per_pair": [
+    {
+      "pair": "AHR+KLF1",
+      "fold": 1,
+      "no_change_mse": 0.004299248700019474,
+      "additive_mse": 0.0012334880140919785,
+      "mean_residual_mse": 0.001047541860674466,
+      "nearest_mse": 0.0009729616848079432,
+      "nearest_mse_excluding_target_genes": 0.0009696089236354467
+    },
+    {
+      "pair": "BAK1+TMSB4X",
+      "fold": 1,
+      "no_change_mse": 0.001511748071146064,
+      "additive_mse": 0.0002331049129350502,
+      "mean_residual_mse": 0.0004290540318479459,
+      "nearest_mse": 0.0004824420031104477,
+      "nearest_mse_excluding_target_genes": 0.000481427333494008
+    },
+    {
+      "pair": "BPGM+ZBTB1",
+      "fold": 1,
+      "no_change_mse": 0.0057971925884072245,
+      "additive_mse": 0.00101383964639111,
+      "mean_residual_mse": 0.0009923459128937603,
+      "nearest_mse": 0.0016479587417568317,
+      "nearest_mse_excluding_target_genes": 0.0016485060364667256
+    },
+    {
+      "pair": "CBFA2T3+FEV",
+      "fold": 1,
+      "no_change_mse": 0.01600018297649446,
+      "additive_mse": 0.005502295512386073,
+      "mean_residual_mse": 0.00582422756711992,
+      "nearest_mse": 0.005270013282050935,
+      "nearest_mse_excluding_target_genes": 0.0052642510678639525
+    },
+    {
+      "pair": "CBFA2T3+PRDM1",
+      "fold": 1,
+      "no_change_mse": 0.013271763233498714,
+      "additive_mse": 0.003186947786000226,
+      "mean_residual_mse": 0.0033032442708679608,
+      "nearest_mse": 0.003298788942031952,
+      "nearest_mse_excluding_target_genes": 0.0032993290131698885
+    },
+    {
+      "pair": "CEBPA+ZC3HAV1",
+      "fold": 1,
+      "no_change_mse": 0.02878944303829595,
+      "additive_mse": 0.0019001423284623347,
+      "mean_residual_mse": 0.0017390211396940173,
+      "nearest_mse": 0.0023750626734182867,
+      "nearest_mse_excluding_target_genes": 0.0023678339835035193
+    },
+    {
+      "pair": "CEBPB+CEBPE",
+      "fold": 1,
+      "no_change_mse": 0.020841480386329967,
+      "additive_mse": 0.004245159042068737,
+      "mean_residual_mse": 0.003498301653254038,
+      "nearest_mse": 0.002778544317733309,
+      "nearest_mse_excluding_target_genes": 0.0027752755214834014
+    },
+    {
+      "pair": "CEBPE+FOSB",
+      "fold": 1,
+      "no_change_mse": 0.01852705837585409,
+      "additive_mse": 0.002180779061924375,
+      "mean_residual_mse": 0.002218157777362431,
+      "nearest_mse": 0.0035435438898459813,
+      "nearest_mse_excluding_target_genes": 0.003537910117233759
+    },
+    {
+      "pair": "CNN1+ETS2",
+      "fold": 1,
+      "no_change_mse": 0.0018445635989177967,
+      "additive_mse": 0.000542669108347035,
+      "mean_residual_mse": 0.0004583957870026884,
+      "nearest_mse": 0.0003887974063882618,
+      "nearest_mse_excluding_target_genes": 0.00038835327602020504
+    },
+    {
+      "pair": "CNN1+MAPK1",
+      "fold": 1,
+      "no_change_mse": 0.002590307801305881,
+      "additive_mse": 0.001182498405948001,
+      "mean_residual_mse": 0.0010648088764645995,
+      "nearest_mse": 0.0010181822927564333,
+      "nearest_mse_excluding_target_genes": 0.0010063167449545789
+    },
+    {
+      "pair": "DLX2+SNAI1",
+      "fold": 1,
+      "no_change_mse": 0.009892199003251856,
+      "additive_mse": 0.0022535220706934064,
+      "mean_residual_mse": 0.002530502820705949,
+      "nearest_mse": 0.0018262305132114025,
+      "nearest_mse_excluding_target_genes": 0.00182321941606541
+    },
+    {
+      "pair": "DUSP9+IGDCC3",
+      "fold": 1,
+      "no_change_mse": 0.009174535019812184,
+      "additive_mse": 0.001200271658113276,
+      "mean_residual_mse": 0.001186372080491409,
+      "nearest_mse": 0.0013682372886624136,
+      "nearest_mse_excluding_target_genes": 0.0013642109458629399
+    },
+    {
+      "pair": "ELMSAN1+MAP2K3",
+      "fold": 1,
+      "no_change_mse": 0.0026074599742265305,
+      "additive_mse": 0.00047662955964773897,
+      "mean_residual_mse": 0.000662236317488754,
+      "nearest_mse": 0.00041546651438268106,
+      "nearest_mse_excluding_target_genes": 0.0004155029404384546
+    },
+    {
+      "pair": "ETS2+IKZF3",
+      "fold": 1,
+      "no_change_mse": 0.0113836084746126,
+      "additive_mse": 0.0010491920935126093,
+      "mean_residual_mse": 0.0008616101564166876,
+      "nearest_mse": 0.0006354717729370687,
+      "nearest_mse_excluding_target_genes": 0.000633744954146672
+    },
+    {
+      "pair": "IGDCC3+TGFBR2",
+      "fold": 1,
+      "no_change_mse": 0.003606441573722762,
+      "additive_mse": 0.0004778920504056283,
+      "mean_residual_mse": 0.0005786874988061892,
+      "nearest_mse": 0.0007567081233037346,
+      "nearest_mse_excluding_target_genes": 0.000754624929914007
+    },
+    {
+      "pair": "PRTG+TGFBR2",
+      "fold": 1,
+      "no_change_mse": 0.004738393078109889,
+      "additive_mse": 0.0005284179951502097,
+      "mean_residual_mse": 0.0006722186942776065,
+      "nearest_mse": 0.0007868385525710818,
+      "nearest_mse_excluding_target_genes": 0.0007870952041301041
+    },
+    {
+      "pair": "PTPN12+SAMD1",
+      "fold": 1,
+      "no_change_mse": 0.007301886832345665,
+      "additive_mse": 0.0007067103712666561,
+      "mean_residual_mse": 0.0006894112012922218,
+      "nearest_mse": 0.0005141113481146965,
+      "nearest_mse_excluding_target_genes": 0.0005140908298954784
+    },
+    {
+      "pair": "PTPN12+ZBTB10",
+      "fold": 1,
+      "no_change_mse": 0.0060944772325439,
+      "additive_mse": 0.0014395252262139019,
+      "mean_residual_mse": 0.0013510539976480437,
+      "nearest_mse": 0.0013801576529416737,
+      "nearest_mse_excluding_target_genes": 0.0013804473264835977
+    },
+    {
+      "pair": "PTPN12+ZBTB25",
+      "fold": 1,
+      "no_change_mse": 0.007194064166481818,
+      "additive_mse": 0.0006872301440135369,
+      "mean_residual_mse": 0.0008706223700021395,
+      "nearest_mse": 0.0004185606868755111,
+      "nearest_mse_excluding_target_genes": 0.00041838017715168583
+    },
+    {
+      "pair": "SAMD1+ZBTB1",
+      "fold": 1,
+      "no_change_mse": 0.008329221290666801,
+      "additive_mse": 0.0007987252054614891,
+      "mean_residual_mse": 0.0008183872180145493,
+      "nearest_mse": 0.0009412074612001461,
+      "nearest_mse_excluding_target_genes": 0.0009414255861641069
+    },
+    {
+      "pair": "UBASH3A+UBASH3B",
+      "fold": 1,
+      "no_change_mse": 0.0021471207078853417,
+      "additive_mse": 0.00034271842598877967,
+      "mean_residual_mse": 0.00032854192792767557,
+      "nearest_mse": 0.00044915695740667584,
+      "nearest_mse_excluding_target_genes": 0.0004485201833043502
+    },
+    {
+      "pair": "BPGM+SAMD1",
+      "fold": 2,
+      "no_change_mse": 0.006211673669465619,
+      "additive_mse": 0.0008221278641734717,
+      "mean_residual_mse": 0.0008130743289766874,
+      "nearest_mse": 0.0014846086109310333,
+      "nearest_mse_excluding_target_genes": 0.0014843931550600274
+    },
+    {
+      "pair": "CBL+PTPN9",
+      "fold": 2,
+      "no_change_mse": 0.00590192006675431,
+      "additive_mse": 0.0008290059585036858,
+      "mean_residual_mse": 0.0008600365667704164,
+      "nearest_mse": 0.0004620040588843392,
+      "nearest_mse_excluding_target_genes": 0.00046106524748499325
+    },
+    {
+      "pair": "CBL+TGFBR2",
+      "fold": 2,
+      "no_change_mse": 0.0037708434841087785,
+      "additive_mse": 0.0005477599441767797,
+      "mean_residual_mse": 0.0006019597841990988,
+      "nearest_mse": 0.0004544591516617762,
+      "nearest_mse_excluding_target_genes": 0.00045364419270996074
+    },
+    {
+      "pair": "CBL+UBASH3A",
+      "fold": 2,
+      "no_change_mse": 0.005870514946510957,
+      "additive_mse": 0.0022158639631856747,
+      "mean_residual_mse": 0.0020294547448831846,
+      "nearest_mse": 0.0012672285975994936,
+      "nearest_mse_excluding_target_genes": 0.0012577269880320755
+    },
+    {
+      "pair": "CDKN1A+CDKN1B",
+      "fold": 2,
+      "no_change_mse": 0.005908580380069615,
+      "additive_mse": 0.001231002560128131,
+      "mean_residual_mse": 0.0012203011979079325,
+      "nearest_mse": 0.0010156857074381362,
+      "nearest_mse_excluding_target_genes": 0.0010153392745517365
+    },
+    {
+      "pair": "CDKN1A+CDKN1C",
+      "fold": 2,
+      "no_change_mse": 0.006424060517715803,
+      "additive_mse": 0.0021244407918982588,
+      "mean_residual_mse": 0.001957930894523991,
+      "nearest_mse": 0.0016908394085237443,
+      "nearest_mse_excluding_target_genes": 0.0016878339336467393
+    },
+    {
+      "pair": "CEBPB+JUN",
+      "fold": 2,
+      "no_change_mse": 0.01457409708673634,
+      "additive_mse": 0.0025821614112766403,
+      "mean_residual_mse": 0.0023240055405064955,
+      "nearest_mse": 0.002828893971781638,
+      "nearest_mse_excluding_target_genes": 0.0028295477821390367
+    },
+    {
+      "pair": "CEBPE+CNN1",
+      "fold": 2,
+      "no_change_mse": 0.0035459908158743296,
+      "additive_mse": 0.0034760745381681598,
+      "mean_residual_mse": 0.0027797023758962397,
+      "nearest_mse": 0.0014433192687416322,
+      "nearest_mse_excluding_target_genes": 0.0014369876265515977
+    },
+    {
+      "pair": "CEBPE+KLF1",
+      "fold": 2,
+      "no_change_mse": 0.002616110728219664,
+      "additive_mse": 0.005148093034916856,
+      "mean_residual_mse": 0.004169110913816396,
+      "nearest_mse": 0.0028210578995822052,
+      "nearest_mse_excluding_target_genes": 0.0027631870235353866
+    },
+    {
+      "pair": "COL2A1+KLF1",
+      "fold": 2,
+      "no_change_mse": 0.005653920965659066,
+      "additive_mse": 0.0018770692082916204,
+      "mean_residual_mse": 0.002032077235647923,
+      "nearest_mse": 0.0018114873056300496,
+      "nearest_mse_excluding_target_genes": 0.0018107425716319496
+    },
+    {
+      "pair": "ELMSAN1+LHX1",
+      "fold": 2,
+      "no_change_mse": 0.003568562632637709,
+      "additive_mse": 0.0005501237777379385,
+      "mean_residual_mse": 0.0007602016081473334,
+      "nearest_mse": 0.0006569784648533043,
+      "nearest_mse_excluding_target_genes": 0.000654938237967965
+    },
+    {
+      "pair": "FOSB+IKZF3",
+      "fold": 2,
+      "no_change_mse": 0.007043187435590082,
+      "additive_mse": 0.0020892417939696434,
+      "mean_residual_mse": 0.0017913149233956343,
+      "nearest_mse": 0.001087848113144401,
+      "nearest_mse_excluding_target_genes": 0.0010878354490393184
+    },
+    {
+      "pair": "FOXA3+FOXF1",
+      "fold": 2,
+      "no_change_mse": 0.004625326313664506,
+      "additive_mse": 0.0008993991856507663,
+      "mean_residual_mse": 0.0009548377565918669,
+      "nearest_mse": 0.0005681312133029559,
+      "nearest_mse_excluding_target_genes": 0.000567738636718274
+    },
+    {
+      "pair": "KLF1+TGFBR2",
+      "fold": 2,
+      "no_change_mse": 0.003872751552243163,
+      "additive_mse": 0.0003758002830134677,
+      "mean_residual_mse": 0.0006614511149196905,
+      "nearest_mse": 0.00038303452574416655,
+      "nearest_mse_excluding_target_genes": 0.00038266484904289107
+    },
+    {
+      "pair": "OSR2+PTPN12",
+      "fold": 2,
+      "no_change_mse": 0.0012357004115918352,
+      "additive_mse": 0.0013511933405112493,
+      "mean_residual_mse": 0.0011614574277932373,
+      "nearest_mse": 0.0006570151960331597,
+      "nearest_mse_excluding_target_genes": 0.0006559455235223802
+    },
+    {
+      "pair": "PLK4+STIL",
+      "fold": 2,
+      "no_change_mse": 0.004096244170539427,
+      "additive_mse": 0.0017985213704538225,
+      "mean_residual_mse": 0.0017891398002697206,
+      "nearest_mse": 0.0015644321332897405,
+      "nearest_mse_excluding_target_genes": 0.0015620229936096541
+    },
+    {
+      "pair": "S1PR2+SGK1",
+      "fold": 2,
+      "no_change_mse": 0.008176066208082174,
+      "additive_mse": 0.0015696857133321077,
+      "mean_residual_mse": 0.0017489745171133696,
+      "nearest_mse": 0.0014457327037586045,
+      "nearest_mse_excluding_target_genes": 0.0014363338878855111
+    },
+    {
+      "pair": "SAMD1+TGFBR2",
+      "fold": 2,
+      "no_change_mse": 0.004702435530894663,
+      "additive_mse": 0.0009631643235968327,
+      "mean_residual_mse": 0.0010593156365413087,
+      "nearest_mse": 0.0011588770717971516,
+      "nearest_mse_excluding_target_genes": 0.0011587279619235565
+    },
+    {
+      "pair": "SGK1+TBX2",
+      "fold": 2,
+      "no_change_mse": 0.00639450417743905,
+      "additive_mse": 0.0006438117012126469,
+      "mean_residual_mse": 0.0006194410108000853,
+      "nearest_mse": 0.0006231641297537002,
+      "nearest_mse_excluding_target_genes": 0.0006208998205139248
+    },
+    {
+      "pair": "SNAI1+ZBTB10",
+      "fold": 2,
+      "no_change_mse": 0.015659928959229866,
+      "additive_mse": 0.0027400900749694744,
+      "mean_residual_mse": 0.002885213376556387,
+      "nearest_mse": 0.0029250051531012062,
+      "nearest_mse_excluding_target_genes": 0.002926021176078188
+    },
+    {
+      "pair": "CEBPA+JUN",
+      "fold": 3,
+      "no_change_mse": 0.03832545033560542,
+      "additive_mse": 0.004082625242801419,
+      "mean_residual_mse": 0.003875770095867967,
+      "nearest_mse": 0.004071652421045414,
+      "nearest_mse_excluding_target_genes": 0.004033005321973346
+    },
+    {
+      "pair": "CEBPB+LYL1",
+      "fold": 3,
+      "no_change_mse": 0.004513431409909478,
+      "additive_mse": 0.002448087029227171,
+      "mean_residual_mse": 0.0019966953932884475,
+      "nearest_mse": 0.0013149506738685363,
+      "nearest_mse_excluding_target_genes": 0.0013128921596728773
+    },
+    {
+      "pair": "CEBPE+ETS2",
+      "fold": 3,
+      "no_change_mse": 0.007880840968987635,
+      "additive_mse": 0.0022870645081786833,
+      "mean_residual_mse": 0.0018823002342666499,
+      "nearest_mse": 0.000954447205475679,
+      "nearest_mse_excluding_target_genes": 0.0009404795768180978
+    },
+    {
+      "pair": "CEBPE+PTPN12",
+      "fold": 3,
+      "no_change_mse": 0.0023951820343915842,
+      "additive_mse": 0.003984028390181405,
+      "mean_residual_mse": 0.003307281567157306,
+      "nearest_mse": 0.002483152342455824,
+      "nearest_mse_excluding_target_genes": 0.002461141395343982
+    },
+    {
+      "pair": "ETS2+IGDCC3",
+      "fold": 3,
+      "no_change_mse": 0.0023471441260675624,
+      "additive_mse": 0.0010543371241987715,
+      "mean_residual_mse": 0.0008344047929906261,
+      "nearest_mse": 0.00043530214965864733,
+      "nearest_mse_excluding_target_genes": 0.0004347199123248465
+    },
+    {
+      "pair": "FEV+ISL2",
+      "fold": 3,
+      "no_change_mse": 0.010139185426499482,
+      "additive_mse": 0.001689262828986234,
+      "mean_residual_mse": 0.0018467794170892436,
+      "nearest_mse": 0.0010301039760961114,
+      "nearest_mse_excluding_target_genes": 0.0010283903203220823
+    },
+    {
+      "pair": "FOSB+PTPN12",
+      "fold": 3,
+      "no_change_mse": 0.0016687748147801661,
+      "additive_mse": 0.0012273910052053973,
+      "mean_residual_mse": 0.0009214827380615784,
+      "nearest_mse": 0.0011739132766450731,
+      "nearest_mse_excluding_target_genes": 0.0011742812206321782
+    },
+    {
+      "pair": "FOSB+UBASH3B",
+      "fold": 3,
+      "no_change_mse": 0.0012507098196917021,
+      "additive_mse": 0.0006890641043993358,
+      "mean_residual_mse": 0.0004614956678109415,
+      "nearest_mse": 0.0005917824662533751,
+      "nearest_mse_excluding_target_genes": 0.0005918192069716137
+    },
+    {
+      "pair": "FOXA1+FOXA3",
+      "fold": 3,
+      "no_change_mse": 0.006560376990515873,
+      "additive_mse": 0.0009276270472951516,
+      "mean_residual_mse": 0.000937445142723011,
+      "nearest_mse": 0.000655466472769102,
+      "nearest_mse_excluding_target_genes": 0.0006553862937583651
+    },
+    {
+      "pair": "FOXA1+FOXF1",
+      "fold": 3,
+      "no_change_mse": 0.004311743358940061,
+      "additive_mse": 0.0009759613209982204,
+      "mean_residual_mse": 0.0011095472861344113,
+      "nearest_mse": 0.0005941240311712489,
+      "nearest_mse_excluding_target_genes": 0.0005941043942865441
+    },
+    {
+      "pair": "FOXA1+HOXB9",
+      "fold": 3,
+      "no_change_mse": 0.0072534790348696265,
+      "additive_mse": 0.0010989580208401325,
+      "mean_residual_mse": 0.0011013930941305976,
+      "nearest_mse": 0.0005634712324072358,
+      "nearest_mse_excluding_target_genes": 0.0005627723990356523
+    },
+    {
+      "pair": "FOXA1+KLF1",
+      "fold": 3,
+      "no_change_mse": 0.004225629953351295,
+      "additive_mse": 0.0012033708656864364,
+      "mean_residual_mse": 0.001400325804635938,
+      "nearest_mse": 0.001435512409483939,
+      "nearest_mse_excluding_target_genes": 0.0014302244558191506
+    },
+    {
+      "pair": "FOXA3+FOXL2",
+      "fold": 3,
+      "no_change_mse": 0.011672816591703144,
+      "additive_mse": 0.002720612741413214,
+      "mean_residual_mse": 0.002705898725039245,
+      "nearest_mse": 0.001652224550797662,
+      "nearest_mse_excluding_target_genes": 0.0016458938751507176
+    },
+    {
+      "pair": "FOXL2+HOXB9",
+      "fold": 3,
+      "no_change_mse": 0.009802551669617535,
+      "additive_mse": 0.0014660394592351767,
+      "mean_residual_mse": 0.0014812978409923317,
+      "nearest_mse": 0.001032178871537019,
+      "nearest_mse_excluding_target_genes": 0.001022958459955157
+    },
+    {
+      "pair": "IGDCC3+ZBTB25",
+      "fold": 3,
+      "no_change_mse": 0.009089982244934736,
+      "additive_mse": 0.0009009109592956724,
+      "mean_residual_mse": 0.0009458950287838845,
+      "nearest_mse": 0.0006646404876931835,
+      "nearest_mse_excluding_target_genes": 0.0006647179808750223
+    },
+    {
+      "pair": "KIF18B+KIF2C",
+      "fold": 3,
+      "no_change_mse": 0.0011606129707486177,
+      "additive_mse": 0.0009754362119578144,
+      "mean_residual_mse": 0.0009092852049915239,
+      "nearest_mse": 0.0013977867775445934,
+      "nearest_mse_excluding_target_genes": 0.0013707389884600326
+    },
+    {
+      "pair": "MAP2K3+MAP2K6",
+      "fold": 3,
+      "no_change_mse": 0.0009106365097884893,
+      "additive_mse": 0.0006373263482650225,
+      "mean_residual_mse": 0.0008920616090830769,
+      "nearest_mse": 0.0005658923814991193,
+      "nearest_mse_excluding_target_genes": 0.000564940710539113
+    },
+    {
+      "pair": "MAP2K6+SPI1",
+      "fold": 3,
+      "no_change_mse": 0.0022530519042233284,
+      "additive_mse": 0.002556246327877884,
+      "mean_residual_mse": 0.0023859090098559926,
+      "nearest_mse": 0.0022095445647171323,
+      "nearest_mse_excluding_target_genes": 0.00220662271398581
+    },
+    {
+      "pair": "OSR2+UBASH3B",
+      "fold": 3,
+      "no_change_mse": 0.0011068649942429704,
+      "additive_mse": 0.0011418116764287899,
+      "mean_residual_mse": 0.0008837812145528175,
+      "nearest_mse": 0.0005420106155977865,
+      "nearest_mse_excluding_target_genes": 0.0005420762332081947
+    },
+    {
+      "pair": "SNAI1+UBASH3B",
+      "fold": 3,
+      "no_change_mse": 0.0025449884593681396,
+      "additive_mse": 0.0004578459854703272,
+      "mean_residual_mse": 0.0004054178153419752,
+      "nearest_mse": 0.0007509590649367505,
+      "nearest_mse_excluding_target_genes": 0.0007510179793621639
+    },
+    {
+      "pair": "BAK1+KLF1",
+      "fold": 4,
+      "no_change_mse": 0.0030332019392331155,
+      "additive_mse": 0.00021130439635910994,
+      "mean_residual_mse": 0.00037824459412173664,
+      "nearest_mse": 0.00029533761630254763,
+      "nearest_mse_excluding_target_genes": 0.00029522432680785234
+    },
+    {
+      "pair": "CEBPA+CEBPE",
+      "fold": 4,
+      "no_change_mse": 0.03618975981774547,
+      "additive_mse": 0.010208055183781746,
+      "mean_residual_mse": 0.009033058983748087,
+      "nearest_mse": 0.005526271211520867,
+      "nearest_mse_excluding_target_genes": 0.005516761040129114
+    },
+    {
+      "pair": "CEBPB+PTPN12",
+      "fold": 4,
+      "no_change_mse": 0.0037035684153294154,
+      "additive_mse": 0.002672634977973204,
+      "mean_residual_mse": 0.0020558553958830335,
+      "nearest_mse": 0.0007895902617258503,
+      "nearest_mse_excluding_target_genes": 0.0007895760467605924
+    },
+    {
+      "pair": "CNN1+UBASH3B",
+      "fold": 4,
+      "no_change_mse": 0.011891558451035185,
+      "additive_mse": 0.0015975399986203653,
+      "mean_residual_mse": 0.001773001081874013,
+      "nearest_mse": 0.0006380314429869964,
+      "nearest_mse_excluding_target_genes": 0.0006382330394486567
+    },
+    {
+      "pair": "DUSP9+ETS2",
+      "fold": 4,
+      "no_change_mse": 0.004163673281166748,
+      "additive_mse": 0.001386968118795632,
+      "mean_residual_mse": 0.0011241748949211998,
+      "nearest_mse": 0.0006365628874385723,
+      "nearest_mse_excluding_target_genes": 0.0006346441988664832
+    },
+    {
+      "pair": "DUSP9+SNAI1",
+      "fold": 4,
+      "no_change_mse": 0.012745135894466846,
+      "additive_mse": 0.004126059117641654,
+      "mean_residual_mse": 0.004306272517917588,
+      "nearest_mse": 0.00457879833483196,
+      "nearest_mse_excluding_target_genes": 0.004579478209665406
+    },
+    {
+      "pair": "ETS2+MAPK1",
+      "fold": 4,
+      "no_change_mse": 0.010232978469668325,
+      "additive_mse": 0.0012229243670524449,
+      "mean_residual_mse": 0.0013241659155009701,
+      "nearest_mse": 0.0012997554284002756,
+      "nearest_mse_excluding_target_genes": 0.001275423397393692
+    },
+    {
+      "pair": "ETS2+TGFBR2",
+      "fold": 4,
+      "no_change_mse": 0.0012562584819683143,
+      "additive_mse": 0.00034295670965006,
+      "mean_residual_mse": 0.000282414472279323,
+      "nearest_mse": 0.0002452984401245818,
+      "nearest_mse_excluding_target_genes": 0.00024469394480099437
+    },
+    {
+      "pair": "FOXA3+HOXB9",
+      "fold": 4,
+      "no_change_mse": 0.009526446034220796,
+      "additive_mse": 0.001368755413709943,
+      "mean_residual_mse": 0.0013515573292965499,
+      "nearest_mse": 0.0006224207833091712,
+      "nearest_mse_excluding_target_genes": 0.0006127899116242468
+    },
+    {
+      "pair": "FOXF1+FOXL2",
+      "fold": 4,
+      "no_change_mse": 0.008598825521971392,
+      "additive_mse": 0.0019738286870339917,
+      "mean_residual_mse": 0.00217341495596841,
+      "nearest_mse": 0.0010079792975177095,
+      "nearest_mse_excluding_target_genes": 0.0010081102502096139
+    },
+    {
+      "pair": "FOXL2+MEIS1",
+      "fold": 4,
+      "no_change_mse": 0.004712048476866781,
+      "additive_mse": 0.0006873666430495642,
+      "mean_residual_mse": 0.000750943029467704,
+      "nearest_mse": 0.0005048164042556603,
+      "nearest_mse_excluding_target_genes": 0.0005044768052398993
+    },
+    {
+      "pair": "IRF1+SET",
+      "fold": 4,
+      "no_change_mse": 0.010267379480168098,
+      "additive_mse": 0.0018201155374916922,
+      "mean_residual_mse": 0.0017403270314577883,
+      "nearest_mse": 0.0017011885881895745,
+      "nearest_mse_excluding_target_genes": 0.001701100016509604
+    },
+    {
+      "pair": "MAP2K3+SLC38A2",
+      "fold": 4,
+      "no_change_mse": 0.001087865418362075,
+      "additive_mse": 0.0003767476790582514,
+      "mean_residual_mse": 0.0005467295715746508,
+      "nearest_mse": 0.00040447092235716437,
+      "nearest_mse_excluding_target_genes": 0.00040372428054816575
+    },
+    {
+      "pair": "MAPK1+TGFBR2",
+      "fold": 4,
+      "no_change_mse": 0.0034235352547188594,
+      "additive_mse": 0.0003753661729853194,
+      "mean_residual_mse": 0.0003395177831344963,
+      "nearest_mse": 0.00048624038442999595,
+      "nearest_mse_excluding_target_genes": 0.000485936645591185
+    },
+    {
+      "pair": "PTPN12+PTPN9",
+      "fold": 4,
+      "no_change_mse": 0.005944827420605126,
+      "additive_mse": 0.0006483835458157649,
+      "mean_residual_mse": 0.0007356541475466921,
+      "nearest_mse": 0.0004195157449524987,
+      "nearest_mse_excluding_target_genes": 0.0004178878981231362
+    },
+    {
+      "pair": "PTPN12+UBASH3B",
+      "fold": 4,
+      "no_change_mse": 0.006893102389904999,
+      "additive_mse": 0.0008051168399213819,
+      "mean_residual_mse": 0.0008980675043001155,
+      "nearest_mse": 0.00032074567364031773,
+      "nearest_mse_excluding_target_genes": 0.000320139155121618
+    },
+    {
+      "pair": "PTPN9+UBASH3B",
+      "fold": 4,
+      "no_change_mse": 0.005804514325322123,
+      "additive_mse": 0.0007371425164524977,
+      "mean_residual_mse": 0.0008622782757396983,
+      "nearest_mse": 0.0004245412910798346,
+      "nearest_mse_excluding_target_genes": 0.0004243756619907563
+    },
+    {
+      "pair": "SAMD1+UBASH3B",
+      "fold": 4,
+      "no_change_mse": 0.006719792690789894,
+      "additive_mse": 0.0006081802228685717,
+      "mean_residual_mse": 0.0006199532496659599,
+      "nearest_mse": 0.0003613459246533687,
+      "nearest_mse_excluding_target_genes": 0.00035904748513675253
+    },
+    {
+      "pair": "SGK1+TBX3",
+      "fold": 4,
+      "no_change_mse": 0.00686365449937996,
+      "additive_mse": 0.0007209676835713881,
+      "mean_residual_mse": 0.0006696201293048635,
+      "nearest_mse": 0.000739082353671476,
+      "nearest_mse_excluding_target_genes": 0.0007391950825614757
+    },
+    {
+      "pair": "TBX2+TBX3",
+      "fold": 4,
+      "no_change_mse": 0.005643423254688201,
+      "additive_mse": 0.000729114593292088,
+      "mean_residual_mse": 0.0007122530786254792,
+      "nearest_mse": 0.0006936013470996748,
+      "nearest_mse_excluding_target_genes": 0.0006914461390285743
+    },
+    {
+      "pair": "CBL+UBASH3B",
+      "fold": 5,
+      "no_change_mse": 0.01030253312331723,
+      "additive_mse": 0.00202589818243272,
+      "mean_residual_mse": 0.0020692414583258606,
+      "nearest_mse": 0.0009678644478710386,
+      "nearest_mse_excluding_target_genes": 0.0009675797421825362
+    },
+    {
+      "pair": "CDKN1B+CDKN1C",
+      "fold": 5,
+      "no_change_mse": 0.005311181176368379,
+      "additive_mse": 0.0017790116468903434,
+      "mean_residual_mse": 0.0015174341342970188,
+      "nearest_mse": 0.0010312340456380405,
+      "nearest_mse_excluding_target_genes": 0.00102785343033292
+    },
+    {
+      "pair": "CEBPB+MAPK1",
+      "fold": 5,
+      "no_change_mse": 0.008444221362153836,
+      "additive_mse": 0.003001458884156741,
+      "mean_residual_mse": 0.0024788969859998256,
+      "nearest_mse": 0.001368843319809931,
+      "nearest_mse_excluding_target_genes": 0.0013636137204028253
+    },
+    {
+      "pair": "CEBPB+OSR2",
+      "fold": 5,
+      "no_change_mse": 0.01091704592569288,
+      "additive_mse": 0.0017870851423426046,
+      "mean_residual_mse": 0.0016622474546026259,
+      "nearest_mse": 0.0011627850202928002,
+      "nearest_mse_excluding_target_genes": 0.0011599206896378705
+    },
+    {
+      "pair": "CEBPE+RUNX1T1",
+      "fold": 5,
+      "no_change_mse": 0.0035072555405610893,
+      "additive_mse": 0.0025208605874450676,
+      "mean_residual_mse": 0.002038694428815745,
+      "nearest_mse": 0.0009602185216057395,
+      "nearest_mse_excluding_target_genes": 0.0009356681085281146
+    },
+    {
+      "pair": "CEBPE+SPI1",
+      "fold": 5,
+      "no_change_mse": 0.02668396438525651,
+      "additive_mse": 0.0028865171204153256,
+      "mean_residual_mse": 0.0027302415632241583,
+      "nearest_mse": 0.003197752866883232,
+      "nearest_mse_excluding_target_genes": 0.003198301168508934
+    },
+    {
+      "pair": "CEBPE+ZC3HAV1",
+      "fold": 5,
+      "no_change_mse": 0.0017956134119075516,
+      "additive_mse": 0.0043715050614679665,
+      "mean_residual_mse": 0.003692202804227056,
+      "nearest_mse": 0.001906192857581364,
+      "nearest_mse_excluding_target_genes": 0.0018425053653514313
+    },
+    {
+      "pair": "CNN1+UBASH3A",
+      "fold": 5,
+      "no_change_mse": 0.01213217502289648,
+      "additive_mse": 0.0036416331184417274,
+      "mean_residual_mse": 0.003733971975180053,
+      "nearest_mse": 0.0024216338406129237,
+      "nearest_mse_excluding_target_genes": 0.00242164079098092
+    },
+    {
+      "pair": "DUSP9+KLF1",
+      "fold": 5,
+      "no_change_mse": 0.010412804965066386,
+      "additive_mse": 0.0010809344708560796,
+      "mean_residual_mse": 0.0012104992905050608,
+      "nearest_mse": 0.001124835249870807,
+      "nearest_mse_excluding_target_genes": 0.0011215646960060675
+    },
+    {
+      "pair": "DUSP9+MAPK1",
+      "fold": 5,
+      "no_change_mse": 0.001880141425684422,
+      "additive_mse": 0.003152617587665028,
+      "mean_residual_mse": 0.0027979621476073697,
+      "nearest_mse": 0.0016853707617967655,
+      "nearest_mse_excluding_target_genes": 0.0016838228702732955
+    },
+    {
+      "pair": "ELMSAN1+MAP2K6",
+      "fold": 5,
+      "no_change_mse": 0.0014703205732413186,
+      "additive_mse": 0.0003208946678343542,
+      "mean_residual_mse": 0.0004245613228197615,
+      "nearest_mse": 0.0003319438064099021,
+      "nearest_mse_excluding_target_genes": 0.00033138384616743607
+    },
+    {
+      "pair": "ETS2+MAP7D1",
+      "fold": 5,
+      "no_change_mse": 0.004590884771439058,
+      "additive_mse": 0.0008005274025226097,
+      "mean_residual_mse": 0.0008325837961266693,
+      "nearest_mse": 0.0009022946150142558,
+      "nearest_mse_excluding_target_genes": 0.0008902693929406856
+    },
+    {
+      "pair": "ETS2+PRTG",
+      "fold": 5,
+      "no_change_mse": 0.003146394121911214,
+      "additive_mse": 0.0009131608799413994,
+      "mean_residual_mse": 0.000852812839117102,
+      "nearest_mse": 0.00044303860368286144,
+      "nearest_mse_excluding_target_genes": 0.00044315527449899117
+    },
+    {
+      "pair": "FEV+MAP7D1",
+      "fold": 5,
+      "no_change_mse": 0.007541210493660335,
+      "additive_mse": 0.0010309006668825843,
+      "mean_residual_mse": 0.0010698529757973225,
+      "nearest_mse": 0.0011591504291710503,
+      "nearest_mse_excluding_target_genes": 0.0011543208587990752
+    },
+    {
+      "pair": "FOSB+OSR2",
+      "fold": 5,
+      "no_change_mse": 0.009312771984121428,
+      "additive_mse": 0.0009860434330989246,
+      "mean_residual_mse": 0.0012315004031124327,
+      "nearest_mse": 0.001173311575484097,
+      "nearest_mse_excluding_target_genes": 0.0011734905089756205
+    },
+    {
+      "pair": "FOXL2+ZNF318",
+      "fold": 5,
+      "no_change_mse": 0.0027371646457620426,
+      "additive_mse": 0.000629862235409976,
+      "mean_residual_mse": 0.0006683846328540319,
+      "nearest_mse": 0.001087509782059692,
+      "nearest_mse_excluding_target_genes": 0.0010871654948953124
+    },
+    {
+      "pair": "IGDCC3+MAPK1",
+      "fold": 5,
+      "no_change_mse": 0.002347789862471677,
+      "additive_mse": 0.0020003709501474126,
+      "mean_residual_mse": 0.00172749660948611,
+      "nearest_mse": 0.000995761235409951,
+      "nearest_mse_excluding_target_genes": 0.0009926233308167494
+    },
+    {
+      "pair": "IKZF3+MAP2K6",
+      "fold": 5,
+      "no_change_mse": 0.00897246938176085,
+      "additive_mse": 0.0007190485569121575,
+      "mean_residual_mse": 0.0009500982613103221,
+      "nearest_mse": 0.0009035661826983269,
+      "nearest_mse_excluding_target_genes": 0.0009038977579236096
+    },
+    {
+      "pair": "IKZF3+MAPK1",
+      "fold": 5,
+      "no_change_mse": 0.0076867985632801585,
+      "additive_mse": 0.0024057125680078907,
+      "mean_residual_mse": 0.0022736789386590527,
+      "nearest_mse": 0.0011006212878109933,
+      "nearest_mse_excluding_target_genes": 0.0011002048181262044
+    },
+    {
+      "pair": "MAPK1+PRTG",
+      "fold": 5,
+      "no_change_mse": 0.002803656313228994,
+      "additive_mse": 0.0021407526327128956,
+      "mean_residual_mse": 0.001940454360563948,
+      "nearest_mse": 0.0011987788073887866,
+      "nearest_mse_excluding_target_genes": 0.0011990521841197795
+    }
+  ]
+}

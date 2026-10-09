@@ -1,0 +1,273 @@
+{
+  "signature": "e3f747b2a1ca87b7e31ef9d25aa8e007b2ad9f7d82d6f211cd9e2c71a99b3ced",
+  "fold": 4,
+  "variant": "no_edges:no_ot",
+  "pair_mse": {
+    "BAK1+KLF1": 0.0011503478744998574,
+    "CEBPA+CEBPE": 0.01237078383564949,
+    "CEBPB+PTPN12": 0.0023403784725815058,
+    "CNN1+UBASH3B": 0.0036902965512126684,
+    "DUSP9+ETS2": 0.0037385057657957077,
+    "DUSP9+SNAI1": 0.0039613028056919575,
+    "ETS2+MAPK1": 0.004206098150461912,
+    "ETS2+TGFBR2": 0.0024378695525228977,
+    "FOXA3+HOXB9": 0.0026111016049981117,
+    "FOXF1+FOXL2": 0.004946031142026186,
+    "FOXL2+MEIS1": 0.003105643903836608,
+    "IRF1+SET": 0.01001743320375681,
+    "MAP2K3+SLC38A2": 0.0019896463491022587,
+    "MAPK1+TGFBR2": 0.002549009397625923,
+    "PTPN12+PTPN9": 0.0033588700462132692,
+    "PTPN12+UBASH3B": 0.003296908689662814,
+    "PTPN9+UBASH3B": 0.004077867604792118,
+    "SAMD1+UBASH3B": 0.0021176759619265795,
+    "SGK1+TBX3": 0.00540662556886673,
+    "TBX2+TBX3": 0.0051140086725354195
+  },
+  "selection": {
+    "selected_epoch": 24,
+    "best_validation_mse": 0.002825705596478656,
+    "validation_history": [
+      {
+        "epoch": 2,
+        "validation_mse": 0.014431983465328813
+      },
+      {
+        "epoch": 4,
+        "validation_mse": 0.0108725581667386
+      },
+      {
+        "epoch": 6,
+        "validation_mse": 0.006023894937243313
+      },
+      {
+        "epoch": 8,
+        "validation_mse": 0.0051917269302066416
+      },
+      {
+        "epoch": 10,
+        "validation_mse": 0.006563453905982897
+      },
+      {
+        "epoch": 12,
+        "validation_mse": 0.005489702802151442
+      },
+      {
+        "epoch": 14,
+        "validation_mse": 0.004040689527755603
+      },
+      {
+        "epoch": 16,
+        "validation_mse": 0.004122202517464757
+      },
+      {
+        "epoch": 18,
+        "validation_mse": 0.004196501424303278
+      },
+      {
+        "epoch": 20,
+        "validation_mse": 0.003326472040498629
+      },
+      {
+        "epoch": 22,
+        "validation_mse": 0.004758057359140366
+      },
+      {
+        "epoch": 24,
+        "validation_mse": 0.002825705596478656
+      },
+      {
+        "epoch": 26,
+        "validation_mse": 0.0030913540540495887
+      },
+      {
+        "epoch": 28,
+        "validation_mse": 0.0034753793734125793
+      },
+      {
+        "epoch": 30,
+        "validation_mse": 0.003481972380541265
+      },
+      {
+        "epoch": 32,
+        "validation_mse": 0.0030453057115664706
+      },
+      {
+        "epoch": 34,
+        "validation_mse": 0.0035274114343337715
+      },
+      {
+        "epoch": 36,
+        "validation_mse": 0.0030124181794235483
+      }
+    ],
+    "training_history": [
+      {
+        "epoch": 1,
+        "noise_mse": 0.8246448355562547
+      },
+      {
+        "epoch": 2,
+        "noise_mse": 0.48234593692947836
+      },
+      {
+        "epoch": 3,
+        "noise_mse": 0.4386856512111776
+      },
+      {
+        "epoch": 4,
+        "noise_mse": 0.4177937858244952
+      },
+      {
+        "epoch": 5,
+        "noise_mse": 0.4070527334423626
+      },
+      {
+        "epoch": 6,
+        "noise_mse": 0.40264636804075804
+      },
+      {
+        "epoch": 7,
+        "noise_mse": 0.3933934499235714
+      },
+      {
+        "epoch": 8,
+        "noise_mse": 0.39308270812034607
+      },
+      {
+        "epoch": 9,
+        "noise_mse": 0.3975089104736553
+      },
+      {
+        "epoch": 10,
+        "noise_mse": 0.3819604945533416
+      },
+      {
+        "epoch": 11,
+        "noise_mse": 0.3837204794673359
+      },
+      {
+        "epoch": 12,
+        "noise_mse": 0.3741143293240491
+      },
+      {
+        "epoch": 13,
+        "noise_mse": 0.383492673144621
+      },
+      {
+        "epoch": 14,
+        "noise_mse": 0.37747901678085327
+      },
+      {
+        "epoch": 15,
+        "noise_mse": 0.37817445572684794
+      },
+      {
+        "epoch": 16,
+        "noise_mse": 0.3829864096992156
+      },
+      {
+        "epoch": 17,
+        "noise_mse": 0.3755810786696041
+      },
+      {
+        "epoch": 18,
+        "noise_mse": 0.38385597572607155
+      },
+      {
+        "epoch": 19,
+        "noise_mse": 0.3801079594037112
+      },
+      {
+        "epoch": 20,
+        "noise_mse": 0.376828472403919
+      },
+      {
+        "epoch": 21,
+        "noise_mse": 0.373031331335797
+      },
+      {
+        "epoch": 22,
+        "noise_mse": 0.3742777415934731
+      },
+      {
+        "epoch": 23,
+        "noise_mse": 0.3703554991413565
+      },
+      {
+        "epoch": 24,
+        "noise_mse": 0.38150543149779825
+      },
+      {
+        "epoch": 25,
+        "noise_mse": 0.3770325525718577
+      },
+      {
+        "epoch": 26,
+        "noise_mse": 0.37442460919127746
+      },
+      {
+        "epoch": 27,
+        "noise_mse": 0.37716097340864296
+      },
+      {
+        "epoch": 28,
+        "noise_mse": 0.374993779203471
+      },
+      {
+        "epoch": 29,
+        "noise_mse": 0.3781365419135374
+      },
+      {
+        "epoch": 30,
+        "noise_mse": 0.37210721215781045
+      },
+      {
+        "epoch": 31,
+        "noise_mse": 0.3759397838045569
+      },
+      {
+        "epoch": 32,
+        "noise_mse": 0.3648223859422347
+      },
+      {
+        "epoch": 33,
+        "noise_mse": 0.37901604613837075
+      },
+      {
+        "epoch": 34,
+        "noise_mse": 0.3708277099272784
+      },
+      {
+        "epoch": 35,
+        "noise_mse": 0.37118462341673236
+      },
+      {
+        "epoch": 36,
+        "noise_mse": 0.36450329247642965
+      }
+    ]
+  },
+  "n_cells": {
+    "BAK1+KLF1": 323,
+    "CEBPA+CEBPE": 240,
+    "CEBPB+PTPN12": 266,
+    "CNN1+UBASH3B": 355,
+    "DUSP9+ETS2": 698,
+    "DUSP9+SNAI1": 168,
+    "ETS2+MAPK1": 432,
+    "ETS2+TGFBR2": 275,
+    "FOXA3+HOXB9": 301,
+    "FOXF1+FOXL2": 173,
+    "FOXL2+MEIS1": 177,
+    "IRF1+SET": 367,
+    "MAP2K3+SLC38A2": 297,
+    "MAPK1+TGFBR2": 389,
+    "PTPN12+PTPN9": 295,
+    "PTPN12+UBASH3B": 260,
+    "PTPN9+UBASH3B": 282,
+    "SAMD1+UBASH3B": 209,
+    "SGK1+TBX3": 243,
+    "TBX2+TBX3": 969
+  }
+}

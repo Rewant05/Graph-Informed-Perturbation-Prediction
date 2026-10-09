@@ -1,0 +1,29 @@
+{
+  "source": "uploaded Perturbation_Pair_Study_GitHub package",
+  "unchanged_core_files": 23,
+  "sha256": {
+    "code/compare_dual_graph_ot_vae_ddpm.py": "3ad01334ab33c783858d25aced563aaa393dc61a1e8863fcad7c743b82de7ce1",
+    "code/compare_pair_ot_vae_ddpm_gears.py": "a7c6ce2cae6c7f66a1f0fed4e0aba741ab0a456f6d6be68c30f2a818801a1606",
+    "code/count_balanced_graph_check_2o.py": "4978b4812d0abeb3539b485a9a509be38e3b8c88f8960e88c86db749e97cbaf2",
+    "code/gears/gears_pair_go_compat.py": "f381aa0d0182133a8a6903b4eb312969e645deaf25766cfd42177c6a21369aea",
+    "code/gears/gears_pair_resumable.py": "c22ee3b453740f643762a94f9c31c2c2a3ed4e17826e3990f8d545f5d5a18b1b",
+    "code/gears/gears_pair_train_and_score.py": "e51538bf00e6b3008c5b66c67726bf03c7cf46570c2d1e0e72a8dc943a59aef3",
+    "code/gears_matched_simple_baseline.py": "79ec9203c50cbe2567c6ef6d7b827303d99d12683cf0b7a8669b91ce8eea15f2",
+    "code/gears_pair_graph_branch_matched.py": "01d61b3b1db922e5e53684c6fbda7a806f0e04c48aa2ebd8e9bfbef0218999f8",
+    "code/gears_pair_result_audit.py": "fd9ca95cea8b0132526abdd02c43e3af5ab7bbab09d8cd2a9b169974c2ad389e",
+    "code/gene_graph_response_2o.py": "4c8674771f699ab2ddc575c2c8f0edd0fb7ea5177edcf9b0edd4e04c0639e04b",
+    "code/heldout_conditional_diffusion_2o.py": "8ceaa8e379f5944876c7b50b8b71c58c0f402bd0a02ee2fa9971febd865410b5",
+    "code/intervention_graphsage_2o.py": "d4ab7100e2f0d93b8242f1617f7b5bc17c39f6166d4cae99d377d85d23c713e6",
+    "code/k562_pair_graph_context_cv.py": "d58592dda23ce2eb6c7ee8036d167cc57d3587c2adbdc6b147a5a883f33bf1fc",
+    "code/k562_pair_graph_residual_branch_cv.py": "5ce62fa44d8ce52260a1aca67c185d0b93516d4598ccf850373acb422b37552d",
+    "code/k562_pair_interaction_cv.py": "d799329e94d655627800e0a805b558287ed8b8a5406e1a8f83abbe041530dbba",
+    "code/k562_pair_signal_audit.py": "1764a2a8e9cad4922e93a2728913938a00185eb38c1cafeaf5883647df54bf9a",
+    "code/make_data_figures.py": "92652a73b92bdca890eae728d3a186258fe552d1472df9c652f4a3d08a18227b",
+    "code/make_inference_figures.py": "c8ea33d2374c15e580c0f8605b41af612b2ada78767243b787a0c0f5cb51a163",
+    "code/plot_expression_export.py": "2edda84216642c93a8439d208d331288db74a94357d67d6799503439ec26e9bb",
+    "code/prepare_gears_pair_splits.py": "b18576e9e7b02c79330ec2e20f8106491a9a54a939c93397e62ecb7b7f445701",
+    "code/prepare_string_ppi_2o.py": "782875a87b3b4f5c2179efb7160100864707fdf3309b0a34486e3a9aef709122",
+    "code/run_string_no_ot_controls.py": "65007b90338400b8379a33b9c1c4d355931dbc690fd5f3a6520cf2e87a84c369",
+    "code/run_validation_selected.py": "77538b90e1def3964b04b9aa1b176934fa66c73346040ff59d2402a24c9ffe25"
+  }
+}

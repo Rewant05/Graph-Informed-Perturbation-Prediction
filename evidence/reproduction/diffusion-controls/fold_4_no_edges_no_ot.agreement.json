@@ -1,0 +1,5 @@
+{
+  "matches_saved_pair_mse": true,
+  "max_abs_difference": 0.0,
+  "reference": "C:\\reproducibility\\Perturbation_Pair_Study_GitHub\\evidence\\validation_checkpoints\\fold_4_no_edges_no_ot.json"
+}

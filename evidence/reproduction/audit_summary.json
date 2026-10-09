@@ -1,0 +1,11 @@
+{
+  "n_pairs": 101,
+  "gears_original_mean": 0.004523486637704874,
+  "gears_rescored_mean": 0.0045234866097634795,
+  "gears_max_pair_difference": 2.1365637236855917e-09,
+  "baseline_exact": true,
+  "diffusion_max_pair_difference": 0.0,
+  "diffusion-controls_max_pair_difference": 0.0,
+  "predictor_max_pair_difference": 0.0,
+  "baseline_max_pair_difference": 0.0
+}

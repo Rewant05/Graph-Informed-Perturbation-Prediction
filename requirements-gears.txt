@@ -1,0 +1,4 @@
+# Additional backend used by the existing GEARS wrappers.
+# Install a torch-geometric build compatible with your PyTorch/CUDA environment.
+cell-gears==0.1.2
+torch-geometric>=2.3

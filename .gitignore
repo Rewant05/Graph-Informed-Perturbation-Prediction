@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+work/
+data/
+*.h5ad
+*.pt
+*.pth
+*.joblib
+*.bedpe.gz
+*.gtf.gz

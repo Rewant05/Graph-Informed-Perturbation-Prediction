@@ -1,0 +1,32 @@
+{
+  "n_pairs": 101,
+  "tests": "Exploratory mean sign-flip; Holm correction (3 tests); weighted fold-block sensitivity",
+  "comparisons": [
+    {
+      "comparison": "GEARS",
+      "pair_sign_flip_p": 0.005239973800130999,
+      "fold_block_sensitivity_p": 0.0625,
+      "mean_error_reduction": 0.0008550887156452614,
+      "holm_adjusted_p": 0.015719921400392998
+    },
+    {
+      "comparison": "no_edges:no_ot",
+      "pair_sign_flip_p": 0.036679816600916994,
+      "fold_block_sensitivity_p": 0.125,
+      "mean_error_reduction": 0.00038555862916873234,
+      "holm_adjusted_p": 0.07335963320183399
+    },
+    {
+      "comparison": "shuffled_string:no_ot",
+      "pair_sign_flip_p": 0.24125879370603148,
+      "fold_block_sensitivity_p": 0.0625,
+      "mean_error_reduction": 0.00032924817838143595,
+      "holm_adjusted_p": 0.24125879370603148
+    }
+  ],
+  "limitations": [
+    "Pair exchangeability unverified; shared genes/training folds",
+    "Repeatedly examined cohort,one training seed",
+    "Fold dots are not independent replicates"
+  ]
+}

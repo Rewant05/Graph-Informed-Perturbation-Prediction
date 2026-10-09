@@ -1,0 +1,115 @@
+{
+  "signature": "d83d5940e1aa083cdbbe5eb7d5f5e21de461dad22ce621f6339e41dccf95e7f9",
+  "fold": 2,
+  "variant": "shuffled_string:no_ot",
+  "pair_mse": {
+    "BPGM+SAMD1": 0.0016902951756492257,
+    "CBL+PTPN9": 0.0015807385789230466,
+    "CBL+TGFBR2": 0.0028283807914704084,
+    "CBL+UBASH3A": 0.0017601625295355916,
+    "CDKN1A+CDKN1B": 0.005430177785456181,
+    "CDKN1A+CDKN1C": 0.005950428545475006,
+    "CEBPB+JUN": 0.007934361696243286,
+    "CEBPE+CNN1": 0.0032814752776175737,
+    "CEBPE+KLF1": 0.003350351471453905,
+    "COL2A1+KLF1": 0.006475381087511778,
+    "ELMSAN1+LHX1": 0.0036108577623963356,
+    "FOSB+IKZF3": 0.00218956614844501,
+    "FOXA3+FOXF1": 0.0012175356969237328,
+    "KLF1+TGFBR2": 0.0019214724889025092,
+    "OSR2+PTPN12": 0.001499163918197155,
+    "PLK4+STIL": 0.00196568900719285,
+    "S1PR2+SGK1": 0.005430238787084818,
+    "SAMD1+TGFBR2": 0.00405484763905406,
+    "SGK1+TBX2": 0.005060235504060984,
+    "SNAI1+ZBTB10": 0.008263924159109592
+  },
+  "selection": {
+    "selected_epoch": 18,
+    "best_validation_mse": 0.0044479245552793145,
+    "validation_history": [
+      {
+        "epoch": 2,
+        "validation_mse": 0.01573547162115574
+      },
+      {
+        "epoch": 4,
+        "validation_mse": 0.009751051140483469
+      },
+      {
+        "epoch": 6,
+        "validation_mse": 0.007368691731244326
+      },
+      {
+        "epoch": 8,
+        "validation_mse": 0.00600902468431741
+      },
+      {
+        "epoch": 10,
+        "validation_mse": 0.005678726767655462
+      },
+      {
+        "epoch": 12,
+        "validation_mse": 0.005243941559456289
+      },
+      {
+        "epoch": 14,
+        "validation_mse": 0.0048316463944502175
+      },
+      {
+        "epoch": 16,
+        "validation_mse": 0.004811552964383736
+      },
+      {
+        "epoch": 18,
+        "validation_mse": 0.0044479245552793145
+      },
+      {
+        "epoch": 20,
+        "validation_mse": 0.004607056092936546
+      },
+      {
+        "epoch": 22,
+        "validation_mse": 0.004520768401562236
+      },
+      {
+        "epoch": 24,
+        "validation_mse": 0.005207642709137872
+      },
+      {
+        "epoch": 26,
+        "validation_mse": 0.0045335320610320196
+      },
+      {
+        "epoch": 28,
+        "validation_mse": 0.004607785449479707
+      },
+      {
+        "epoch": 30,
+        "validation_mse": 0.004583566027577035
+      }
+    ]
+  },
+  "n_cells": {
+    "BPGM+SAMD1": 240,
+    "CBL+PTPN9": 234,
+    "CBL+TGFBR2": 156,
+    "CBL+UBASH3A": 50,
+    "CDKN1A+CDKN1B": 98,
+    "CDKN1A+CDKN1C": 80,
+    "CEBPB+JUN": 52,
+    "CEBPE+CNN1": 194,
+    "CEBPE+KLF1": 389,
+    "COL2A1+KLF1": 251,
+    "ELMSAN1+LHX1": 547,
+    "FOSB+IKZF3": 204,
+    "FOXA3+FOXF1": 146,
+    "KLF1+TGFBR2": 263,
+    "OSR2+PTPN12": 283,
+    "PLK4+STIL": 66,
+    "S1PR2+SGK1": 312,
+    "SAMD1+TGFBR2": 59,
+    "SGK1+TBX2": 287,
+    "SNAI1+ZBTB10": 85
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "version": "2026-09-30-official-gears-epoch-checkpoints-v1",
+  "data": "C:\\reproducibility\\Transcriptomic-Diffusion-ZeroShot\\gears_data\\norman",
+  "split": "C:\\reproducibility\\Perturbation_Pair_Study_GitHub\\work\\inputs\\coverage_report.json",
+  "baseline": "C:\\reproducibility\\Perturbation_Pair_Study_GitHub\\work\\inputs\\baseline.json",
+  "device": "cuda:0",
+  "planned_epochs": 20,
+  "batch_size": 32,
+  "partial": false,
+  "folds": {
+    "1": {
+      "epochs_completed": 20,
+      "best_val_de_mse": 0.2446003695949912,
+      "additive_mse": 0.0014848456485248645,
+      "nearest_mse": 0.0014889734335955934,
+      "gears_mse": 0.003911319730042398
+    }
+  },
+  "per_pair": [
+    {
+      "pair": "AHR+KLF1",
+      "fold": 1,
+      "test_cells": 412,
+      "additive_mse": 0.0012334880140919785,
+      "nearest_mse": 0.0009729616848079432,
+      "gears_mse": 0.003065472063134099
+    },
+    {
+      "pair": "BAK1+TMSB4X",
+      "fold": 1,
+      "test_cells": 267,
+      "additive_mse": 0.0002331049129350502,
+      "nearest_mse": 0.0004824420031104477,
+      "gears_mse": 0.0016891208930415668
+    },
+    {
+      "pair": "BPGM+ZBTB1",
+      "fold": 1,
+      "test_cells": 283,
+      "additive_mse": 0.00101383964639111,
+      "nearest_mse": 0.0016479587417568317,
+      "gears_mse": 0.003062945920764322
+    },
+    {
+      "pair": "CBFA2T3+FEV",
+      "fold": 1,
+      "test_cells": 153,
+      "additive_mse": 0.005502295512386073,
+      "nearest_mse": 0.005270013282050935,
+      "gears_mse": 0.008356901070972013
+    },
+    {
+      "pair": "CBFA2T3+PRDM1",
+      "fold": 1,
+      "test_cells": 109,
+      "additive_mse": 0.003186947786000226,
+      "nearest_mse": 0.003298788942031952,
+      "gears_mse": 0.0066314890773704225
+    },
+    {
+      "pair": "CEBPA+ZC3HAV1",
+      "fold": 1,
+      "test_cells": 124,
+      "additive_mse": 0.0019001423284623347,
+      "nearest_mse": 0.0023750626734182867,
+      "gears_mse": 0.007371104204732386
+    },
+    {
+      "pair": "CEBPB+CEBPE",
+      "fold": 1,
+      "test_cells": 111,
+      "additive_mse": 0.004245159042068737,
+      "nearest_mse": 0.002778544317733309,
+      "gears_mse": 0.006707630873907662
+    },
+    {
+      "pair": "CEBPE+FOSB",
+      "fold": 1,
+      "test_cells": 142,
+      "additive_mse": 0.002180779061924375,
+      "nearest_mse": 0.0035435438898459813,
+      "gears_mse": 0.004936777022983926
+    },
+    {
+      "pair": "CNN1+ETS2",
+      "fold": 1,
+      "test_cells": 785,
+      "additive_mse": 0.000542669108347035,
+      "nearest_mse": 0.0003887974063882618,
+      "gears_mse": 0.0011974793993243804
+    },
+    {
+      "pair": "CNN1+MAPK1",
+      "fold": 1,
+      "test_cells": 325,
+      "additive_mse": 0.001182498405948001,
+      "nearest_mse": 0.0010181822927564333,
+      "gears_mse": 0.001938348651041172
+    },
+    {
+      "pair": "DLX2+SNAI1",
+      "fold": 1,
+      "test_cells": 107,
+      "additive_mse": 0.0022535220706934064,
+      "nearest_mse": 0.0018262305132114025,
+      "gears_mse": 0.007015488784355784
+    },
+    {
+      "pair": "DUSP9+IGDCC3",
+      "fold": 1,
+      "test_cells": 323,
+      "additive_mse": 0.001200271658113276,
+      "nearest_mse": 0.0013682372886624136,
+      "gears_mse": 0.0041410711989514504
+    },
+    {
+      "pair": "ELMSAN1+MAP2K3",
+      "fold": 1,
+      "test_cells": 484,
+      "additive_mse": 0.00047662955964773897,
+      "nearest_mse": 0.00041546651438268106,
+      "gears_mse": 0.002172600093965807
+    },
+    {
+      "pair": "ETS2+IKZF3",
+      "fold": 1,
+      "test_cells": 388,
+      "additive_mse": 0.0010491920935126093,
+      "nearest_mse": 0.0006354717729370687,
+      "gears_mse": 0.004359982169431222
+    },
+    {
+      "pair": "IGDCC3+TGFBR2",
+      "fold": 1,
+      "test_cells": 262,
+      "additive_mse": 0.0004778920504056283,
+      "nearest_mse": 0.0007567081233037346,
+      "gears_mse": 0.0022444101512297883
+    },
+    {
+      "pair": "PRTG+TGFBR2",
+      "fold": 1,
+      "test_cells": 208,
+      "additive_mse": 0.0005284179951502097,
+      "nearest_mse": 0.0007868385525710818,
+      "gears_mse": 0.002557729743205798
+    },
+    {
+      "pair": "PTPN12+SAMD1",
+      "fold": 1,
+      "test_cells": 292,
+      "additive_mse": 0.0007067103712666561,
+      "nearest_mse": 0.0005141113481146965,
+      "gears_mse": 0.002557985219907973
+    },
+    {
+      "pair": "PTPN12+ZBTB10",
+      "fold": 1,
+      "test_cells": 230,
+      "additive_mse": 0.0014395252262139019,
+      "nearest_mse": 0.0013801576529416737,
+      "gears_mse": 0.004968677507613261
+    },
+    {
+      "pair": "PTPN12+ZBTB25",
+      "fold": 1,
+      "test_cells": 257,
+      "additive_mse": 0.0006872301440135369,
+      "nearest_mse": 0.0004185606868755111,
+      "gears_mse": 0.0019344651284605142
+    },
+    {
+      "pair": "SAMD1+ZBTB1",
+      "fold": 1,
+      "test_cells": 164,
+      "additive_mse": 0.0007987252054614891,
+      "nearest_mse": 0.0009412074612001461,
+      "gears_mse": 0.004100868421642716
+    },
+    {
+      "pair": "UBASH3A+UBASH3B",
+      "fold": 1,
+      "test_cells": 426,
+      "additive_mse": 0.00034271842598877967,
+      "nearest_mse": 0.00044915695740667584,
+      "gears_mse": 0.0011271667348540955
+    }
+  ]
+}
