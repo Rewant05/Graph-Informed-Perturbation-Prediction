@@ -13,3 +13,5 @@ data/
 *.joblib
 *.bedpe.gz
 *.gtf.gz
+
+docs/_build/

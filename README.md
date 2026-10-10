@@ -17,6 +17,34 @@ The scope is **held-out combinations**, not established zero-shot generalisation
 
 ![Two model architectures](figures/architectures.svg)
 
+## Find and run the two models
+
+| Model | Public entry point | Numerical definitions |
+| :--- | :--- | :--- |
+| STRING + VAE + diffusion | [`models/diffusion.py`](models/diffusion.py) | [`PairDDPM / PairConditioner`](code/run_validation_selected.py) and [`LatentVAE / GraphDDPM`](code/compare_dual_graph_ot_vae_ddpm.py) |
+| STRING-assisted predictor | [`models/predictor.py`](models/predictor.py) | [`learned_predictions`](code/gears_pair_graph_branch_matched.py) and its nearest/kernel helpers |
+
+```bash
+# After preparing the exact benchmark inputs:
+python -m models.diffusion --fold 1 --device cuda:0
+python -m models.predictor
+```
+
+These entry points call the preserved implementations; no duplicate numerical model is introduced. See [model guide](models/README.md) and [component API](docs/API.md). Source code is included; trained weights are not bundled.
+
+## Preprocessing and documentation
+
+[`preprocessing.py`](preprocessing.py) provides three separate workflows: audit the frozen benchmark, preprocess verified raw counts, or explore expression with PCA/UMAP and optional Harmony. [`preprocess_norman.py`](preprocess_norman.py) is the named raw-count entry point. The [historical script](archive/preprocess_norman_original.py) is preserved for provenance. **None of these exploratory transformations replace the processed input behind the saved scores.** See the [preprocessing guide](docs/PREPROCESSING.md).
+
+```bash
+python preprocessing.py benchmark --data /path/to/perturb_processed.h5ad
+python preprocessing.py explore --data /path/to/processed.h5ad --input-kind processed --out work/preprocessing/exploration.h5ad
+python -m pip install -r docs/requirements.txt
+python -m sphinx -W --keep-going -b html docs work/docs-html
+```
+
+The [documentation source](docs/index.md) includes installation, tutorials, model/API guides and audit notes. Open `work/docs-html/index.html` after building. Read the Docs configuration is included; the hosted site still needs to be imported and built through your account ([instructions](docs/HOSTING.md)).
+
 ## Results
 
 Condition-mean all-gene MSE, averaged equally over 101 pairs; lower is better. These are exploratory results on a repeatedly examined cohort.
@@ -103,12 +131,15 @@ Mean Pearson = **0.642**, mean Spearman = **0.287**, mean predictive R² = **0.2
 
 | Location | Contents |
 | :--- | :--- |
+| `models/` | Clear public model interfaces backed by the preserved definitions |
+| `preprocessing.py` | Benchmark audit, raw-count processing and exploratory embeddings |
 | `code/` | Both architectures, baselines, graph processing and plotting |
 | `code/gears/` | Resumable GEARS training, scoring and compatibility wrappers |
 | `graphs/` | Frozen STRING and Hi-C mappings used by the study |
 | `evidence/` | Saved results, five-fold splits, histories and expression export |
 | `evidence/reproduction/` | Uploaded rerun reports, dataset fingerprint and computed audit |
 | `figures/` | Curated PNG/PDF figures, architecture SVG and plotting notes |
+| `tests/` | Synthetic preprocessing safety and data-preservation checks |
 | `docs/` | Algorithms, evaluation, provenance, reproduction and presentation map |
 | `archive/` | Historical provenance utilities; not the main study entry point |
 | `work/` | Local outputs created when you run commands; excluded from Git |

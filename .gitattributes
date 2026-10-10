@@ -1,0 +1,2 @@
+# Keep release-hashed source bytes stable on Windows and other platforms.
+* -text

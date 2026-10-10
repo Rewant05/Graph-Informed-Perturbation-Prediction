@@ -1,0 +1,2 @@
+# Optional exploratory batch correction; main benchmark does not require it.
+harmonypy>=0.0.10,<0.1
