@@ -32,6 +32,22 @@ python -m models.predictor
 
 These entry points call the preserved implementations; no duplicate numerical model is introduced. See [model guide](models/README.md) and [component API](docs/API.md). Source code is included; trained weights are not bundled.
 
+### STRING-conditioned latent diffusion
+
+![STRING-conditioned latent diffusion architecture](figures/string_latent_diffusion.png)
+
+Expression is compressed using SVD and a VAE. A STRING-based
+intervention conditioner guides latent diffusion generation.
+The reported configuration uses STRING, with Hi-C and OT disabled.
+
+### STRING-assisted pair predictor
+
+![STRING-assisted pair predictor architecture](figures/string_pair_predictor.png)
+
+Measured single-gene effects provide an additive prediction.
+Nearest-neighbour and STRING-kernel branches estimate interaction
+residuals for the held-out combination.
+
 ## Preprocessing and documentation
 
 [`preprocessing.py`](preprocessing.py) provides three separate workflows: audit the frozen benchmark, preprocess verified raw counts, or explore expression with PCA/UMAP and optional Harmony. [`preprocess_norman.py`](preprocess_norman.py) is the named raw-count entry point. The [historical script](archive/preprocess_norman_original.py) is preserved for provenance. **None of these exploratory transformations replace the processed input behind the saved scores.** See the [preprocessing guide](docs/PREPROCESSING.md).
